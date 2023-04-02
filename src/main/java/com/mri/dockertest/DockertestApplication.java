@@ -14,6 +14,7 @@ public class DockertestApplication {
 	@PostConstruct
 	public void intt() {
 		logger.info("Application started!");
+		logger.info("Hello World!");
 	}
 
 	public static void main(String[] args) {
