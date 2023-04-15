@@ -16,6 +16,7 @@ public class DockertestApplication {
 		logger.info("Application started!");
 		logger.info("Hello World!");
 		logger.info("Why am i like this?");
+		logger.info("Why am i like this again?");
 	}
 
 	public static void main(String[] args) {
