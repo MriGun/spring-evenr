@@ -10,4 +10,9 @@ public class HomeController {
     public String home() {
         return "Home is running";
     }
+
+    @GetMapping("/message")
+    public String showMessege() {
+        return "Congratulations! You have successfully deployed application to kubernetes!";
+    }
 }

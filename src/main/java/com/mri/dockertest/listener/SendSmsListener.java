@@ -4,6 +4,9 @@ import com.mri.dockertest.events.TransactionFailureEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class SendSmsListener {
     @EventListener
